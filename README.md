@@ -22,7 +22,7 @@ Utilizei [GIT](https://git-scm.com/) para controle de versão.
 
 ## ✒️ Autor
 
-* **Tayse Fernandes** - *Desenvolvimento / Documentação* - [LinkedIn](https://www.linkedin.com/in/tayse-alves/)
+* **Tayse Alves** - *Desenvolvimento / Documentação* - [LinkedIn](https://www.linkedin.com/in/tayse-alves/)
 
 
 ## 🎁 Expressões de gratidão
