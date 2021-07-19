@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<!--Cabeçalho-->
+
+<head>
+    <!-- Nome da aba, idioma e descrição -->
+    <title>Cosplay Point | Black Friday</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página web para Landing Page de Black Friday da Cosplay Point" />
+    <meta name="author" content="Tayse Fernandes Alves" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Fonte customizada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!--inclusão de CSS e JavaScript -->
+    <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+    <script scr="./javascript/script.js"></script>
+</head>
+
+<body>
+    <div>
+        <!--Cabeçalho-->
+        <header role="banner">
+            <img class="logo" src="./assets/COSPLAY POINT.png" title="Logotipo" alt="Logotipo da Cosplay Point">
+        </header>
+    </div>
+
+    <!--Conteudo principal-->
+    <div class="principal">
+
+        <!--Introdução-->
+        <div id="intro">
+            <h2 id="black-friday1">BLACK FRIDAY</h2>
+            <h2 id="black-friday2">é na <span
+                    style="color: #E8941C; font-family: 'Open Sans', sans-serif; font-size: 150%; font-weight: 200;">Cosplay
+                    Point!</span></h2>
+            <p id="info-black-friday">Aproveite descontos de até 70%</p>
+        </div>
+
+
+        <!--Imagem-->
+        <div>
+            <img id="produto" src="./assets/Produtos.png" title="Produtos" alt="Produtos da Cosplay Point">
+        </div>
+
+    </div>
+
+    <!--Cadastro-->
+    <div class="formulario">
+        <h2 id="inscreva">Cadastre-se para não perder nossas ofertas!</h2>
+        <form class="form" action="">
+            <input id="nome" type="text" name="nome" placeholder="Digite seu nome">
+            <input id="email" type="email" name="email" placeholder="Digite seu email">
+            <input id="submit" onclick="cadastroCliente()" type="button" value="Cadastrar">
+        </form>    
+    </div>
+
+    <!--Rodapé-->
+    <footer role="contentinfo">
+        &copy; Cosplay Point by Tayse Alves
+    </footer>
+
+</body>
+
+</html>
